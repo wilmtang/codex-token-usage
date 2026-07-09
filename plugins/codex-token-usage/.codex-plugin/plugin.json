@@ -1,0 +1,26 @@
+{
+  "name": "codex-token-usage",
+  "version": "0.1.0",
+  "description": "Shows token usage after every Codex turn.",
+  "author": {
+    "name": "Zod D",
+    "url": "https://github.com/wilmtang"
+  },
+  "homepage": "https://github.com/wilmtang/codex-token-usage",
+  "repository": "https://github.com/wilmtang/codex-token-usage",
+  "license": "MIT",
+  "keywords": ["tokens", "usage", "hooks", "observability"],
+  "interface": {
+    "displayName": "Codex Token Usage",
+    "shortDescription": "Per-turn token usage after each response",
+    "longDescription": "Shows fresh input, cache reads, output, reasoning, and total tokens after every Codex turn.",
+    "developerName": "Zod D",
+    "category": "Productivity",
+    "capabilities": ["Token usage"],
+    "websiteURL": "https://github.com/wilmtang/codex-token-usage",
+    "defaultPrompt": [
+      "Show token usage after each Codex turn."
+    ],
+    "brandColor": "#10A37F"
+  }
+}

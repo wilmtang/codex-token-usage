@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "exec \"${PLUGIN_ROOT}/hooks/codex-stop-token-usage.sh\"",
+            "timeout": 5,
+            "statusMessage": "Calculating Codex token usage..."
+          }
+        ]
+      }
+    ]
+  }
+}
